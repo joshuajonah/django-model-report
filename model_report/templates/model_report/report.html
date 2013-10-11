@@ -62,7 +62,8 @@
 {% endblock %}
 
 {% block content %}
-{% include "model_report/includes/report_title.html" %}
+<h1><a href="{% url 'model_report_list' %}">{% trans "Report list" %}</a> &raquo; {{ report.get_title }}</h1>
+
 {% include "model_report/includes/form_report.html" %}
 
 {% if report_rows %}
