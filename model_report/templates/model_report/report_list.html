@@ -1,10 +1,7 @@
-{% extends "base.html" %}
+{% extends "model_report/base.html" %}
 {% load i18n %}
 
-{% block title %}{% trans "Report list" %}{% endblock %}
-
-{% block body_class %}reports{% endblock %}
-
+{% block title %}{% trans "List" %}{{ block.super }}{% endblock %}
 
 {% block content %}
     <h1>{% trans "Report list" %}</h1>
