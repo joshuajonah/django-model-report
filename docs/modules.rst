@@ -1,14 +1,6 @@
 Modules
 =======
 
-highcharts
-----------
-
-.. toctree::
-   :maxdepth: 2
-
-   highcharts_module
-
 
 export_pdf
 ----------
